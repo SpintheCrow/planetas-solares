@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::selection{
+    color: rgb(203, 203, 203);
+    background-color: rgba(88, 88, 88, 0.399);
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+    padding: 0;
+}
+
+/* FOOTER START */
+footer{
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
+}
+
+.redes{
+    display: flex;
+    gap: 2vh;
+}
+
+#enlaceRedes{
+    height: auto;
+    width: 4vh;
+    align-content:center;
+}
+
+.copyRight{
+    color: rgba(184, 184, 184, 0.533);
+    margin: 2vh;
+    align-content: center;
+}
+/* FOOTER END */
